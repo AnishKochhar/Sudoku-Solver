@@ -1,5 +1,5 @@
-sudoku: main.cpp 
-	clang++ main.cpp -o sudoku -Wall -Wextra -pedantic -std=c++17
+sudoku: sudoku.cpp helper.cpp helper.h
+	clang++ sudoku.cpp -o sudoku -Wall -Wextra -pedantic -std=c++17
 
 # Clean
 cleanObj:
